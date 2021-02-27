@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Time To Shine</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="shining.js"></script>
+    <style>
+
+      body {
+        font-family: Garamond;
+        }
+
+        #GraphBackground {
+         position: fixed;
+         height: 1150px;
+         top: 0px;
+         left: 0px;
+         z-index:0;
+       }
+
+       #text2000 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2001 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2002 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2003 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2004 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2005 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2006 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2007 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2008 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2009 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2010 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2011 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2012 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2013 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2014 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2015 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2016 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2017 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2018 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2019 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2020 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+       #text2021 {
+       position: absolute;
+       color:black;
+       background-color: white;
+       border: 2px dotted black;
+       width: 300px;
+       left: 900px;
+       top: 490px;
+       font-size: 16px;
+       font-family: courier;
+       z-index:3;
+       display: none;
+       }
+
+        #twothousand {
+        position: fixed;
+        top: 24px;
+        right: 410px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandone {
+        position: fixed;
+        top: 24px;
+        right: 355px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+
+        #twothousandtwo {
+        position: fixed;
+        top: 24px;
+        right: 685px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+
+        #twothousandthree {
+        position: fixed;
+        top: 24px;
+        right: 960px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+
+        #twothousandfour {
+        position: fixed;
+        top: 24px;
+        right: 300px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandfive {
+        position: fixed;
+        top: 24px;
+        right: 465px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandsix {
+        position: fixed;
+        top: 24px;
+        right: 1070px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandseven {
+        position: fixed;
+        top: 24px;
+        right: 1180px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandeight {
+        position: fixed;
+        top: 24px;
+        right: 245px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandnine {
+        position: fixed;
+        top: 24px;
+        right: 1125px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandten {
+        position: fixed;
+        top: 24px;
+        right: 1015px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandeleven {
+        position: fixed;
+        top: 24px;
+        right: 190px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandtwelve {
+        position: fixed;
+        top: 24px;
+        right: 905px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandthirteen {
+        position: fixed;
+        top: 24px;
+        right: 520px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandforteen {
+        position: fixed;
+        top: 24px;
+        right: 795px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandfifteen {
+        position: fixed;
+        top: 24px;
+        right: 850px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandsixteen {
+        position: fixed;
+        top: 24px;
+        right: 575px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandseventeen {
+        position: fixed;
+        top: 24px;
+        right: 135px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandeighteen {
+        position: fixed;
+        top: 24px;
+        right: 740px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandnineteen {
+        position: fixed;
+        top: 24px;
+        right: 630px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandtwenty {
+        position: fixed;
+        top: 24px;
+        right: 25px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+        #twothousandtwentyone {
+        position: fixed;
+        top: 24px;
+        right: 80px;
+        width: 100px;
+        opacity: 1;
+        border-radius: 10px 10px 10px 10px;
+        cursor: move;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id=text2000><center>Pantone Color of the Year:<br><br> <b>2000</b></center></div>
+    <div id=text2001><center>Pantone Color of the Year:<br><br> <b>2001</b></center></div>
+    <div id=text2002><center>Pantone Color of the Year:<br><br> <b>2002</b></center></div>
+    <div id=text2003><center>Pantone Color of the Year:<br><br> <b>2003</b></center></div>
+    <div id=text2004><center>Pantone Color of the Year:<br><br> <b>2004</b></center></div>
+    <div id=text2005><center>Pantone Color of the Year:<br><br> <b>2005</b></center></div>
+    <div id=text2006><center>Pantone Color of the Year:<br><br> <b>2006</b></center></div>
+    <div id=text2007><center>Pantone Color of the Year:<br><br> <b>2007</b></center></div>
+    <div id=text2008><center>Pantone Color of the Year:<br><br> <b>2008</b></center></div>
+    <div id=text2009><center>Pantone Color of the Year:<br><br> <b>2009</b></center></div>
+    <div id=text2010><center>Pantone Color of the Year:<br><br> <b>2010</b></center></div>
+    <div id=text2011><center>Pantone Color of the Year:<br><br> <b>2011</b></center></div>
+    <div id=text2012><center>Pantone Color of the Year:<br><br> <b>2012</b></center></div>
+    <div id=text2013><center>Pantone Color of the Year:<br><br> <b>2013</b></center></div>
+    <div id=text2014><center>Pantone Color of the Year:<br><br> <b>2014</b></center></div>
+    <div id=text2015><center>Pantone Color of the Year:<br><br> <b>2015</b></center></div>
+    <div id=text2016><center>Pantone Color of the Year:<br><br> <b>2016</b></center></div>
+    <div id=text2017><center>Pantone Color of the Year:<br><br> <b>2017</b></center></div>
+    <div id=text2018><center>Pantone Color of the Year:<br><br> <b>2018</b></center></div>
+    <div id=text2019><center>Pantone Color of the Year:<br><br> <b>2019</b></center></div>
+    <div id=text2020><center>Pantone Color of the Year:<br><br> <b>2020</b></center></div>
+    <div id=text2021><center>Pantone Color of the Year:<br><br> <b>2021</b></center></div>
+
+    <img id=GraphBackground src="graph1.jpg">
+    <img id=twothousand src="2000.png">
+    <img id=twothousandone src="2001.png">
+    <img id=twothousandtwo src="2002.png">
+    <img id=twothousandthree src="2003.png">
+    <img id=twothousandfour src="2004.png">
+    <img id=twothousandfive src="2005.png">
+    <img id=twothousandsix src="2006.png">
+    <img id=twothousandseven src="2007.png">
+    <img id=twothousandeight src="2008.png">
+    <img id=twothousandnine src="2009.png">
+    <img id=twothousandten src="2010.png">
+    <img id=twothousandeleven src="2011.png">
+    <img id=twothousandtwelve src="2012.png">
+    <img id=twothousandthirteen src="2013.png">
+    <img id=twothousandforteen src="2014.png">
+    <img id=twothousandfifteen src="2015.png">
+    <img id=twothousandsixteen src="2016.png">
+    <img id=twothousandseventeen src="2017.png">
+    <img id=twothousandeighteen src="2018.png">
+    <img id=twothousandnineteen src="2019.png">
+    <img id=twothousandtwenty src="2020.png">
+    <img id=twothousandtwentyone src="2021.png">
+  </body>
+</html>
