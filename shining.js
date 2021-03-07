@@ -5,9 +5,7 @@ $("#twothousand").draggable();
 $("#twothousand").click(function(){
 $("#text2000").toggle();
 });
-// $("#twothousand").dblclick(function(){
-// $("#text2000").hide();
-// });
+
 
 $("#twothousandone").draggable();
 $("#twothousandone").click(function(){
@@ -115,13 +113,4 @@ $("#twothousandtwentyone").click(function(){
 $("#text2021").toggle();
 });
 
-
-
-
-
-// $("#twothousandone").hover(function(){
-// $("#twothousand").show();
-// $("#twothousandone").click(function(){
-// $("#twothousand").toggle();
-//});
 })
