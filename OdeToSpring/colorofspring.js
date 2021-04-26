@@ -1,0 +1,33 @@
+$(document).ready(function() {
+// alert("[whatever-little-message-you-want]");
+$("#IMG_1").hover(function(){
+     $("#color_1").toggle();
+     });
+$("#IMG_5").hover(function(){
+    $("#color_2").toggle();
+    });
+$("#IMG_9").hover(function(){
+    $("#color_3").toggle();
+    });
+$("#IMG_16").hover(function(){
+    $("#color_4").toggle();
+    });
+$("#IMG_20").hover(function(){
+    $("#color_5").toggle();
+    });
+$("#IMG_26").hover(function(){
+    $("#color_6").toggle();
+    });
+$("#IMG_30").hover(function(){
+    $("#color_7").toggle();
+    });
+$("#IMG_33").hover(function(){
+    $("#color_8").toggle();
+    });
+$("#IMG_37").hover(function(){
+    $("#color_9").toggle();
+    });
+$("#IMG_41").hover(function(){
+    $("#color_10").toggle();
+    });
+})

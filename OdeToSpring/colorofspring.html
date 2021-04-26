@@ -1,0 +1,473 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="colorofspring.js"></script>
+
+    <style>
+      #IMG_1 {
+      position: fixed;
+      width: 100px;
+      left: 45vw;
+      top: 0vh;
+      z-index: 10;
+      }
+
+      #color_1 {
+      display: none;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      left: 0vw;
+      top: 0vh;
+      z-index: 5;
+      }
+
+      #IMG_2 {
+      position: fixed;
+      width: 100px;
+      left: 55vw;
+      top: 0vh;
+      z-index: 10;
+      }
+      #IMG_3 {
+      position: fixed;
+      width: 100px;
+      left: 65vw;
+      top: 0vh;
+      z-index: 10;
+      }
+      #IMG_4 {
+      position: fixed;
+      width: 100px;
+      left: 75vw;
+      top: 0vh;
+      z-index: 10;
+      }
+      #IMG_5 {
+      position: fixed;
+      width: 100px;
+      left: 85vw;
+      top: 0vh;
+      z-index: 10;
+      }
+      #color_2 {
+      display: none;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      left: 0vw;
+      top: 0vh;
+      z-index: 5;
+      }
+      #IMG_6 {
+      position: fixed;
+      width: 100px;
+      left: 95vw;
+      top: 0vh;
+      z-index: 10;
+      }
+      #IMG_7 {
+      position: fixed;
+      width: 100px;
+      left: 45vw;
+      top: 14vh;
+      z-index: 10;
+      }
+      #IMG_8 {
+      position: fixed;
+      width: 100px;
+      left: 55vw;
+      top: 14vh;
+      z-index: 10;
+      }
+      #IMG_9 {
+      position: fixed;
+      width: 100px;
+      left: 65vw;
+      top: 14vh;
+      z-index: 10;
+      }
+      #color_3 {
+      display: none;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      left: 0vw;
+      top: 0vh;
+      z-index: 5;
+      }
+      #IMG_10 {
+      position: fixed;
+      width: 100px;
+      left: 75vw;
+      top: 14vh;
+      z-index: 10;
+      }
+      #IMG_11 {
+      position: fixed;
+      width: 100px;
+      left: 85vw;
+      top: 14vh;
+      z-index: 10;
+      }
+      #IMG_12 {
+      position: fixed;
+      width: 100px;
+      left: 95vw;
+      top: 14vh;
+      z-index: 10;
+      }
+      #IMG_13 {
+      position: fixed;
+      width: 100px;
+      left: 45vw;
+      top: 28vh;
+      z-index: 10;
+      }
+      #IMG_14 {
+      position: fixed;
+      width: 100px;
+      left: 55vw;
+      top: 28vh;
+      z-index: 10;
+      }
+      #IMG_15 {
+      position: fixed;
+      width: 100px;
+      left: 65vw;
+      top: 28vh;
+      z-index: 10;
+      }
+      #IMG_16 {
+      position: fixed;
+      width: 100px;
+      left: 75vw;
+      top: 28vh;
+      z-index: 10;
+      }
+      #color_4 {
+      display: none;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      left: 0vw;
+      top: 0vh;
+      z-index: 5;
+      }
+      #IMG_17 {
+      position: fixed;
+      width: 100px;
+      left: 85vw;
+      top: 28vh;
+      z-index: 10;
+      }
+      #IMG_18 {
+      position: fixed;
+      width: 100px;
+      left: 95vw;
+      top: 28vh;
+      z-index: 10;
+      }
+      #IMG_19 {
+      position: fixed;
+      width: 100px;
+      left: 45vw;
+      top: 42vh;
+      z-index: 10;
+      }
+      #IMG_20 {
+      position: fixed;
+      width: 100px;
+      left: 55vw;
+      top: 42vh;
+      z-index: 10;
+      }
+      #color_5 {
+      display: none;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      left: 0vw;
+      top: 0vh;
+      z-index: 5;
+      }
+      #IMG_21 {
+      position: fixed;
+      width: 100px;
+      left: 65vw;
+      top: 42vh;
+      z-index: 10;
+      }
+      #IMG_22 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 75vw;
+      top: 42vh;
+      z-index: 10;
+      }
+      #IMG_23 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 85vw;
+      top: 42vh;
+      z-index: 10;
+      }
+      #IMG_24 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 95vw;
+      top: 42vh;
+      z-index: 10;
+      }
+      #IMG_25 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 45vw;
+      top: 56vh;
+      z-index: 10;
+      }
+      #IMG_26 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 55vw;
+      top: 56vh;
+      z-index: 10;
+      }
+      #color_6 {
+      display: none;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      left: 0vw;
+      top: 0vh;
+      z-index: 5;
+      }
+      #IMG_27 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 65vw;
+      top: 56vh;
+      z-index: 10;
+      }
+      #IMG_28 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 75vw;
+      top: 56vh;
+      z-index: 10;
+      }
+      #IMG_29 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 85vw;
+      top: 56vh;
+      z-index: 10;
+      }
+      #IMG_30 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 95vw;
+      top: 56vh;
+      z-index: 10;
+      }
+      #color_7 {
+      display: none;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      left: 0vw;
+      top: 0vh;
+      z-index: 5;
+      }
+      #IMG_31 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 45vw;
+      top: 70vh;
+      z-index: 10;
+      }
+      #IMG_32 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 55vw;
+      top: 70vh;
+      z-index: 10;
+      }
+      #IMG_33 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 65vw;
+      top: 70vh;
+      z-index: 10;
+      }
+      #color_8 {
+      display: none;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      left: 0vw;
+      top: 0vh;
+      z-index: 5;
+      }
+      #IMG_34 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 75vw;
+      top: 70vh;
+      z-index: 10;
+      }
+      #IMG_35 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 85vw;
+      top: 70vh;
+      z-index: 10;
+      }
+      #IMG_36 {
+      position: fixed;
+      width: 100px;
+      height: 100px;
+      left: 95vw;
+      top: 70vh;
+      z-index: 10;
+      }
+      #IMG_37 {
+      position: fixed;
+      width: 100px;
+      height: 110px;
+      left: 45vw;
+      top: 84vh;
+      z-index: 10;
+      }
+      #color_9 {
+      display: none;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      left: 0vw;
+      top: 0vh;
+      z-index: 5;
+      }
+      #IMG_38 {
+      position: fixed;
+      width: 100px;
+      height: 110px;
+      left: 55vw;
+      top: 84vh;
+      z-index: 10;
+      }
+      #IMG_39 {
+      position: fixed;
+      width: 100px;
+      height: 110px;
+      left: 65vw;
+      top: 84vh;
+      z-index: 10;
+      }
+      #IMG_40 {
+      position: fixed;
+      width: 100px;
+      height: 110px;
+      left: 75vw;
+      top: 84vh;
+      z-index: 10;
+      }
+      #IMG_41 {
+      position: fixed;
+      width: 100px;
+      height: 110px;
+      left: 85vw;
+      top: 84vh;
+      z-index: 10;
+      }
+      #color_10 {
+      display: none;
+      position: absolute;
+      width: 50vw;
+      height: 100vh;
+      left: 0vw;
+      top: 0vh;
+      z-index: 5;
+      }
+      #IMG_42 {
+      position: fixed;
+      width: 100px;
+      height: 110px;
+      left: 95vw;
+      top: 84vh;
+      z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <img id= IMG_1 src="colorofspring/1.png">
+    <img id= IMG_2 src="colorofspring/2.png">
+    <img id= IMG_3 src="colorofspring/3.png">
+    <img id= IMG_4 src="colorofspring/4.png">
+    <img id= IMG_5 src="colorofspring/5.png">
+    <img id= IMG_6 src="colorofspring/6.png">
+    <img id= IMG_7 src="colorofspring/7.png">
+    <img id= IMG_8 src="colorofspring/8.png">
+    <img id= IMG_9 src="colorofspring/9.png">
+    <img id= IMG_10 src="colorofspring/10.png">
+    <img id= IMG_11 src="colorofspring/11.png">
+    <img id= IMG_12 src="colorofspring/12.png">
+    <img id= IMG_13 src="colorofspring/13.png">
+    <img id= IMG_14 src="colorofspring/14.png">
+    <img id= IMG_15 src="colorofspring/15.png">
+    <img id= IMG_16 src="colorofspring/16.png">
+    <img id= IMG_17 src="colorofspring/17.png">
+    <img id= IMG_18 src="colorofspring/18.png">
+    <img id= IMG_19 src="colorofspring/19.png">
+    <img id= IMG_20 src="colorofspring/20.png">
+    <img id= IMG_21 src="colorofspring/21.png">
+    <img id= IMG_22 src="colorofspring/22.png">
+    <img id= IMG_23 src="colorofspring/23.png">
+    <img id= IMG_24 src="colorofspring/24.png">
+    <img id= IMG_25 src="colorofspring/25.png">
+    <img id= IMG_26 src="colorofspring/26.png">
+    <img id= IMG_27 src="colorofspring/27.png">
+    <img id= IMG_28 src="colorofspring/28.png">
+    <img id= IMG_29 src="colorofspring/29.png">
+    <img id= IMG_30 src="colorofspring/30.png">
+    <img id= IMG_31 src="colorofspring/31.png">
+    <img id= IMG_32 src="colorofspring/32.png">
+    <img id= IMG_33 src="colorofspring/33.png">
+    <img id= IMG_34 src="colorofspring/34.png">
+    <img id= IMG_35 src="colorofspring/35.png">
+    <img id= IMG_36 src="colorofspring/36.png">
+    <img id= IMG_37 src="colorofspring/37.png">
+    <img id= IMG_38 src="colorofspring/38.png">
+    <img id= IMG_39 src="colorofspring/39.png">
+    <img id= IMG_40 src="colorofspring/40.png">
+    <img id= IMG_41 src="colorofspring/41.png">
+    <img id= IMG_42 src="colorofspring/42.png">
+    <img id= color_1 src="colorofspring/color_1.png">
+    <img id= color_2 src="colorofspring/color_2.png">
+    <img id= color_3 src="colorofspring/color_3.png">
+    <img id= color_4 src="colorofspring/color_4.png">
+    <img id= color_5 src="colorofspring/color_5.png">
+    <img id= color_6 src="colorofspring/color_6.png">
+    <img id= color_7 src="colorofspring/color_7.png">
+    <img id= color_8 src="colorofspring/color_8.png">
+    <img id= color_9 src="colorofspring/color_9.png">
+    <img id= color_10 src="colorofspring/color_10.png">
+    <!-- <img id= IMG_43 src="colorofspring/43.png"> -->
+  </body>
+</html>
