@@ -17,7 +17,7 @@
       #color_1 {
       display: none;
       position: absolute;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
       left: 0vw;
       top: 0vh;
@@ -55,7 +55,7 @@
       #color_2 {
       display: none;
       position: absolute;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
       left: 0vw;
       top: 0vh;
@@ -92,7 +92,7 @@
       #color_3 {
       display: none;
       position: absolute;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
       left: 0vw;
       top: 0vh;
@@ -150,7 +150,7 @@
       #color_4 {
       display: none;
       position: absolute;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
       left: 0vw;
       top: 0vh;
@@ -187,7 +187,7 @@
       #color_5 {
       display: none;
       position: absolute;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
       left: 0vw;
       top: 0vh;
@@ -243,7 +243,7 @@
       #color_6 {
       display: none;
       position: absolute;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
       left: 0vw;
       top: 0vh;
@@ -284,7 +284,7 @@
       #color_7 {
       display: none;
       position: absolute;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
       left: 0vw;
       top: 0vh;
@@ -317,7 +317,7 @@
       #color_8 {
       display: none;
       position: absolute;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
       left: 0vw;
       top: 0vh;
@@ -358,7 +358,7 @@
       #color_9 {
       display: none;
       position: absolute;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
       left: 0vw;
       top: 0vh;
@@ -399,7 +399,7 @@
       #color_10 {
       display: none;
       position: absolute;
-      width: 50vw;
+      width: 100vw;
       height: 100vh;
       left: 0vw;
       top: 0vh;
@@ -412,6 +412,27 @@
       left: 95vw;
       top: 84vh;
       z-index: 10;
+      }
+
+      audio {
+        position: fixed;
+        left: 15vw;
+        width: 15vw;
+        z-index: 20;
+      }
+      #forward {
+      position: fixed;
+      width: 50px;
+      right: 10px;
+      top: 45vh;
+      z-index: 50;
+      }
+      #backward {
+      position: fixed;
+      width: 50px;
+      left: 10px;
+      top: 45vh;
+      z-index: 50;
       }
     </style>
   </head>
@@ -468,6 +489,9 @@
     <img id= color_8 src="colorofspring/color_8.png">
     <img id= color_9 src="colorofspring/color_9.png">
     <img id= color_10 src="colorofspring/color_10.png">
-    <!-- <img id= IMG_43 src="colorofspring/43.png"> -->
+    <a href=harbinger.html> <img id= forward src="colorofspring/arrow-forward.png"> </a>
+    <a href=index.html> <img id= backward src="colorofspring/arrow-back.png"> </a>
+    <audio loop controls> <source src="colorofspring/ColorOfSpring.wav" type="audio/wav"></audio>
+
   </body>
 </html>

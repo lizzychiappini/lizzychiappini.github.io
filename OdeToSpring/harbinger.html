@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+    body {
+      background-color: #B0C139;
+    }
+
+    #peeper {
+      position: fixed;
+      top: 0vh;
+      height: 100vh;
+      z-index: 10;
+    }
+    .center {
+      /* display: block; */
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      }
+
+      #peeperAudio {
+        position: fixed;
+        right: 2vw;
+        top: 10vw;
+        width: 15vw;
+        z-index: 20;
+      }
+      #peeperSounds {
+        position: fixed;
+        left: 2vw;
+        top: 1vw;
+        width: 15vw;
+        z-index: 20;
+      }
+      #forward {
+      position: fixed;
+      width: 50px;
+      right: 10px;
+      top: 45vh;
+      z-index: 50;
+      }
+
+      #backward {
+      position: fixed;
+      width: 50px;
+      left: 10px;
+      top: 45vh;
+      z-index: 50;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <video id= peeper loop controls src="harbinger/peeper.mp4" type="video/mp4" class="center"></video>
+    <audio id= peeperAudio loop controls> <source src="harbinger/peepers.wav" type="audio/wav"></audio>
+    <audio id= peeperSounds loop controls> <source src="harbinger/peeper_sounds.mp3" type="audio/mp3"></audio>
+    <a href=springcolors.html> <img id= forward src="harbinger/arrow-forward.png"> </a>
+    <a href=colorofspring.html> <img id= backward src="harbinger/arrow-back.png"> </a>
+
+
+  </body>
+
+</html>
